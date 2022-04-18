@@ -1,0 +1,11 @@
+# Interface
+interface Timestamps {
+  createdAt: Date!
+  updatedAt: Date!
+}
+
+# Inputs
+input QueryParams {
+  pageSize: Int!
+  page: Int!
+}

@@ -1,0 +1,13 @@
+scalar Date
+
+type Query {
+  # Examples
+  examples(params: QueryParams): Examples!
+  example(id: ID!): Example
+}
+
+type Mutation {
+  # Examples
+  createExample(example: ExampleCreateInput!): Example!
+  updateExample(id: ID!, example: ExampleUpdateInput!): Example!
+}

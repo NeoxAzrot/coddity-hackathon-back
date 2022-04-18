@@ -1,0 +1,21 @@
+# Types
+type Example implements Timestamps {
+  id: ID!
+  example: String!
+
+  createdAt: Date!
+  updatedAt: Date!
+}
+
+type Examples {
+  results: [Example]!
+}
+
+# Inputs
+input ExampleCreateInput {
+  example: String!
+}
+
+input ExampleUpdateInput {
+  example: String
+}
