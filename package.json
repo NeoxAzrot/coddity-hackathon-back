@@ -14,9 +14,9 @@
     "lint:fix": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
     "prepare": "husky install",
-    "migration": "ts-node database/migrate.ts",
+    "migration": "ts-node -r tsconfig-paths/register database/migrate.ts",
     "migration:production": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/database/migrate.js",
-    "seeds": "ts-node database/seeds/index.ts",
+    "seeds": "ts-node -r tsconfig-paths/register database/seeds",
     "docker": "docker-compose up -d"
   },
   "dependencies": {

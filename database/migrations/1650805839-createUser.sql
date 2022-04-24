@@ -2,8 +2,8 @@ CREATE TABLE IF NOT EXISTS "users" (
 	"id" SERIAL PRIMARY KEY,
   "username" VARCHAR(255) NOT NULL,
   "score" INTEGER NOT NULL,
-  "rank_id" INTEGER NOT NULL,
+  "survey_id" INTEGER NOT NULL,
 	"created_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	"updated_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY ("rank_id") REFERENCES "ranks" ("id")
+  FOREIGN KEY ("survey_id") REFERENCES "surveys" ("id")
 );

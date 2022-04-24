@@ -33,7 +33,7 @@ const apolloServer = async ({ app, port }: ApolloServerParams) => {
   });
 
   await new Promise<void>((resolve) => httpServer.listen({ port }, resolve));
-  console.log(`\n🚀 Server connected on \u001b[1;34m http://localhost:${port} \u001b[0m`);
+  console.log(`\n🚀 Server connected on\u001b[1;34m http://localhost:${port} \u001b[0m`);
 };
 
 export default apolloServer;

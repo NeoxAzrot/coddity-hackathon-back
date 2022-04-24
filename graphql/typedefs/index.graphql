@@ -1,13 +1,18 @@
 scalar Date
 
 type Query {
-  # Examples
-  examples(params: QueryParams): Examples!
-  example(id: ID!): Example
+  # Surveys
+  survey(slug: String!): Survey!
+  surveys: Surveys!
+
+  # Users
+  usersBySurveyId(id: ID!): Users!
 }
 
 type Mutation {
-  # Examples
-  createExample(example: ExampleCreateInput!): Example!
-  updateExample(id: ID!, example: ExampleUpdateInput!): Example!
+  # Surveys
+  createSurvey: Survey!
+
+  # Users
+  createUser(params: UserCreateInput!): User!
 }

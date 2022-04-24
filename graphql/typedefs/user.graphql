@@ -1,0 +1,19 @@
+# Types
+type User implements Timestamps {
+  id: ID!
+  username: String!
+  score: Int!
+  createdAt: Date!
+  updatedAt: Date!
+}
+
+type Users {
+  results: [User]!
+}
+
+# Inputs
+input UserCreateInput {
+  username: String!
+  score: Int!
+  surveyId: ID!
+}

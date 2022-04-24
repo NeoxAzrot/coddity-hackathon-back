@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS "surveys_questions_relation" (
+CREATE TABLE IF NOT EXISTS "questions_surveys" (
 	"id" SERIAL PRIMARY KEY,
   "survey_id" INTEGER NOT NULL,
   "question_id" INTEGER NOT NULL,

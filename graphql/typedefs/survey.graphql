@@ -1,0 +1,12 @@
+# Types
+type Survey implements Timestamps {
+  id: ID!
+  slug: String!
+  questions: Questions!
+  createdAt: Date!
+  updatedAt: Date!
+}
+
+type Surveys {
+  results: [Survey]!
+}

@@ -1,0 +1,13 @@
+# Types
+type Question implements Timestamps {
+  id: ID!
+  question: String!
+  explanation: String!
+  answers: Answers!
+  createdAt: Date!
+  updatedAt: Date!
+}
+
+type Questions {
+  results: [Question]!
+}

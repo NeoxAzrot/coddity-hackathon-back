@@ -1,11 +1,10 @@
 import { readFileSync, readdirSync } from 'fs';
 
-import { pool } from './connect';
+import { pool } from 'database/connect';
 
 const migrateDatabase = async () => {
   const migrations = readdirSync('database/migrations');
 
-  // To migrate in the good order
   for (const migration of migrations) {
     const migrationFile = readFileSync(`database/migrations/${migration}`).toString();
     await pool

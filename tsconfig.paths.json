@@ -4,7 +4,8 @@
     "paths": {
       "database": ["database"],
       "graphql": ["graphql"],
-      "types": ["types"]
+      "types": ["types"],
+      "utils": ["utils"]
     }
   }
 }

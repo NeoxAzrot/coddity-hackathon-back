@@ -5,7 +5,13 @@ interface Timestamps {
 }
 
 # Inputs
+input Order {
+  by: String
+  direction: String
+}
+
 input QueryParams {
-  pageSize: Int!
-  page: Int!
+  order: Order
+  limit: Int
+  offset: Int
 }

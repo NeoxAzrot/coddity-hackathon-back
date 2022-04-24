@@ -4,7 +4,7 @@ import { Pool } from 'pg';
 
 interface QueryDatabaseParams {
   query: string;
-  params?: string[];
+  params?: Array<string | number>;
 }
 
 dotenvExpand.expand(dotenv.config());

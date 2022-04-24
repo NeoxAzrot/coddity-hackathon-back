@@ -1,11 +1,14 @@
-import { exampleMutations, exampleQueries } from './example';
+import { surveyMutations, surveyQueries } from './survey';
+import { userMutations, userQueries } from './user';
 
 const resolvers = {
   Query: {
-    ...exampleQueries,
+    ...surveyQueries,
+    ...userQueries,
   },
   Mutation: {
-    ...exampleMutations,
+    ...surveyMutations,
+    ...userMutations,
   },
 };
 

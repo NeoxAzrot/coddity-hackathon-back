@@ -12,7 +12,11 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
     "incremental": true,
+    "downlevelIteration": true,
     "outDir": "build"
+  },
+  "ts-node": {
+    "files": true
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts"],
