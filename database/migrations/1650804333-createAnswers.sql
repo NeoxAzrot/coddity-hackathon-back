@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS "anwsers" (
+	"id" SERIAL PRIMARY KEY,
+  "answer" TEXT NOT NULL,
+  "question_id" INTEGER NOT NULL,
+	"created_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	"updated_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY ("question_id") REFERENCES "questions" ("id")
+);

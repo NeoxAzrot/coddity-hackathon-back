@@ -1,18 +1,23 @@
 {
-  "name": "api-name",
-  "description": "Api description",
-  "author": "Sami Lafrance",
-  "version": "0.1.0",
+  "name": "warmd-api",
+  "description": "Hackathon organized by Coddity, about how to make IPCC solutions accessible to everyone?",
+  "author": "Sami Lafrance && Elise Echasseriau",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "server.ts",
   "scripts": {
-    "start": "node server.ts",
-    "dev": "nodemon -r tsconfig-paths/register server.ts",
+    "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/server.js",
+    "dev": "npm run docker && nodemon",
+    "build": "rimraf ./build && tsc && copyfiles **/*.graphql **/*.sql ./build",
     "typecheck": "tsc --pretty --noEmit",
     "lint": "eslint . --ext .ts,.js",
     "lint:fix": "eslint . --ext .ts,.js --fix",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "migration": "ts-node database/migrate.ts",
+    "migration:production": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/database/migrate.js",
+    "seeds": "ts-node database/seeds/index.ts",
+    "docker": "docker-compose up -d"
   },
   "dependencies": {
     "apollo-server-core": "^3.6.7",
@@ -20,16 +25,20 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
+    "dotenv-expand": "^8.0.3",
     "express": "^4.17.3",
-    "graphql": "^16.3.0"
+    "graphql": "^16.3.0",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.23",
+    "@types/pg": "^8.6.5",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
+    "copyfiles": "^2.4.1",
     "eslint": "^8.13.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -42,6 +51,7 @@
     "lint-staged": "^12.3.7",
     "nodemon": "^2.0.15",
     "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   },

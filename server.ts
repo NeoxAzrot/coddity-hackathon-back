@@ -1,18 +1,15 @@
-import {
-  ApolloServerPluginLandingPageDisabled,
-  ApolloServerPluginLandingPageGraphQLPlayground,
-} from 'apollo-server-core';
-import { ApolloServer } from 'apollo-server-express';
 import bodyParser from 'body-parser';
 import cors, { CorsOptions } from 'cors';
 import dotenv from 'dotenv';
+import dotenvExpand from 'dotenv-expand';
 import express from 'express';
-import http from 'http';
 
-import { resolvers, typeDefs } from 'graphql/schema';
+import { connectDatabase } from 'database/connect';
 
-dotenv.config();
-const PORT = process.env.PORT || 3000;
+import apolloServer from 'graphql/connect';
+
+dotenvExpand.expand(dotenv.config());
+const API_PORT = process.env.API_PORT || 3000;
 
 const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
 const corsOptions: CorsOptions = {
@@ -25,33 +22,15 @@ const corsOptions: CorsOptions = {
   },
 };
 
-// eslint-disable-next-line @typescript-eslint/no-shadow, @typescript-eslint/no-explicit-any
-const startApolloServer = async (typeDefs: string, resolvers: any) => {
-  const app = express();
-  app.use(bodyParser.urlencoded({ extended: false }));
-  app.use(bodyParser.json());
-  app.use(cors(corsOptions));
+const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(cors(corsOptions));
 
-  const httpServer = http.createServer(app);
+const startServer = async () => {
+  await apolloServer({ app, port: API_PORT });
 
-  const server = new ApolloServer({
-    typeDefs,
-    resolvers,
-    plugins: [
-      process.env.NODE_ENV === 'production'
-        ? ApolloServerPluginLandingPageDisabled()
-        : ApolloServerPluginLandingPageGraphQLPlayground(),
-    ],
-  });
-
-  await server.start();
-  server.applyMiddleware({
-    app,
-    path: '/graphql',
-  });
-
-  await new Promise<void>((resolve) => httpServer.listen({ port: PORT }, resolve));
-  console.log(`\n🚀 Connecting on port\u001b[1;34m http://localhost:${PORT} \u001b[0m\n`);
+  await connectDatabase();
 };
 
-startApolloServer(typeDefs, resolvers);
+startServer();
