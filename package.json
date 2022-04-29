@@ -1,13 +1,13 @@
 {
-  "name": "warmd-api",
+  "name": "warmd",
   "description": "Hackathon organized by Coddity, about how to make IPCC solutions accessible to everyone?",
   "author": "Sami Lafrance && Elise Echasseriau",
   "version": "1.0.0",
   "license": "MIT",
   "main": "server.ts",
   "scripts": {
-    "start": "npm run docker && node -r ts-node/register/transpile-only -r tsconfig-paths/register build/server.js",
-    "dev": "npm run docker && nodemon",
+    "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/server.js",
+    "dev": "nodemon",
     "build": "rimraf ./build && tsc && copyfiles **/*.graphql **/*.sql ./build",
     "typecheck": "tsc --pretty --noEmit",
     "lint": "eslint . --ext .ts,.js",

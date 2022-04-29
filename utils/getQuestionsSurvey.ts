@@ -9,10 +9,10 @@ const getQuestions = async (questionsSurveys: QuestionSurvey[]) => {
 
     const answers: Answer[] = await queryDatabase({
       query: 'SELECT * FROM answers WHERE question_id = $1',
-      params: [questionSurvey.id],
+      params: [questionSurvey.question_id],
     });
 
-    const answersResults = answers.map(async (answer) => {
+    const answersResults = answers.map((answer) => {
       return {
         id: answer.id,
         answer: answer.answer,

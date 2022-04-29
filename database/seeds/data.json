@@ -8,8 +8,136 @@
     },
     {
       "question": "Lister les actions à court terme pour améliorer la sécurité alimentaire.",
-      "answers": ["1", "tes"],
+      "answers": ["1", "2", "3", "4"],
       "correct": 1,
+      "explanation": "Test"
+    },
+    {
+      "question": "En l’absence de mesures d’adaptation plus ambitieuses qu’aujourd’hui, les dommages annuels causés par les submersions côtières seront multipliés par 10 d’ici 2100 ?",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "Test"
+    },
+    {
+      "question": "Quels dirigeants ont soutenu la création du Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC) ?",
+      "answers": [
+        "Jacques Chirac et Bill Clinton",
+        "Ronald Reagan et Margaret Tatcher",
+        "Mikhaïl Gorbatchev et Henry Kissinger"
+      ],
+      "correct": 1,
+      "explanation": "En 1988, le Président républicain des États-Unis et la Première ministre travailliste britannique demandent la création, par le biais du G7, d’une mission d’évaluation de la connaissance sur l’évolution du climat et sur le rôle de l’activité humaine. Le but était indirectement de promouvoir l’énergie nucléaire."
+    },
+    {
+      "question": "Quand a été évoqué pour la première fois le réchauffement d’origine humaine dans la presse grand public ?",
+      "answers": [
+        "1912 dans le Rodney and Otamatea Times, au sujet de la combustion du charbon",
+        "1922 dans l’Écho de Paris, au sujet de l’activité industrielle pendant la première guerre",
+        "1932 dans le Houston Chronicle, au sujet de l’industrie pétrolière au Texas"
+      ],
+      "correct": 0,
+      "explanation": "C’est à peine une petite brève dans les colonnes d'un quotidien néozélandais daté du 14 août 1912, Rodney and Otamatea Times, Waitemata and Kaipara Gazette. Celle-ci évoquait déjà sans aucune ambiguïté l’impact de la combustion du charbon dans le réchauffement climatique. Elle est intitulée \"La consommation de charbon affecte le changement climatique\"."
+    },
+    {
+      "question": "Les géologues débattent sur l’apparition d’une nouvelle ère géologique marquée par l’influence de l’Homme sur la planète, en particulier à travers l’utilisation des énergies fossiles. Elle se nomme :",
+      "answers": ["Carbonocène", "Industriacène", "Anthropocène"],
+      "correct": 2,
+      "explanation": "La notion d’Anthropocène est apparue à la fin du XXe siècle. Elle serait marquée par la modification de l’atmosphère et des sols. Toutefois, la notion ne fait pas encore consensus. En 2016, lors d’un sommet à Oslo, une quarantaine d’experts, ont appelé à officialiser ce concept."
+    },
+    {
+      "question": "À quelle date le GIEC a-t-il assuré que le réchauffement climatique était d’origine humaine ?",
+      "answers": [
+        "1988, dès sa création.",
+        "2007, s’appuyant sur la multiplication des phénomènes climatiques extrêmes.",
+        "2014, en vue de la tenue de la COP21 en 2015 à Paris."
+      ],
+      "correct": 1,
+      "explanation": "C’est en 2007, que les experts du GIEC assurent qu’il y a 90 % de chance que l’Homme soit responsable du changement climatique. Dans le rapport précédent, ce taux n’était situé qu’à 66 %, laissant de la place au climato-scepticisme."
+    },
+    {
+      "question": "Comment s’appelle l’effet qui est à l’origine du réchauffement par l’accroissement de certains gaz dans l’atmosphère, comme le dioxyde de carbone ou le méthane ?",
+      "answers": ["L’effet de serre", "L’effet de radiation", "L’effet de couverture"],
+      "correct": 0,
+      "explanation": "Par analogie avec les serres en agriculture, l’effet de serre planétaire est le phénomène naturel qui permet à la planète d’avoir une température tempérée moyenne de 15 °C contre -18 °C s’il n’existait pas. Il est dû au fait que certains gaz atmosphériques emprisonnent le rayonnement infrarouge du soleil sans le laisser repartir dans l’espace. Mais la production de certains gaz par l’Homme est en train d’accentuer cet effet, au point de le rendre dangereux."
+    },
+    {
+      "question": "Quel est le taux de CO2 dans l’atmosphère ?",
+      "answers": ["Entre 30 et 40 %", "Environ 12 %", "Moins de 0,1 %"],
+      "correct": 2,
+      "explanation": "On ne parle que de lui à travers son fort pouvoir d’effet de serre, mais le CO2 ne compte que pour une part infime de l’atmosphère terrestre. Celle-ci se compose à 78,09 % d’azote, 20,95 % d’oxygène, 0,93 % d’argon, 0,04 % de CO2. Suivent des traces d’autres gaz : néon, hélium, ozone, etc."
+    },
+    {
+      "question": "Lors de quel \"Sommet de la Terre\", le plus ancien sommet environnemental, a été évoqué pour la première fois la question du réchauffement climatique ?",
+      "answers": [
+        "1972 au sommet de la Terre de Stockholm",
+        "1992 lors du sommet de la Terre à Rio de Janeiro",
+        "2002 lors du sommet de la Terre à Johannesburg"
+      ],
+      "correct": 1,
+      "explanation": "Le sommet de 1992 à Rio est le plus important des quatre éditions de cette conférence onusienne, qui a lieu tous les dix ans. Elle donne naissance à trois conventions de l’ONU sur la désertification, sur la biodiversité et sur le changement climatique. Cette dernière est la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC), chargée de l’organisation des COP."
+    },
+    {
+      "question": "Quel gaz à l'effet de serre le plus puissant ?",
+      "answers": ["Le CO2", "La vapeur d’eau", "Le méthane"],
+      "correct": 1,
+      "explanation": "Test"
+    },
+    {
+      "question": "tes",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 1,
+      "explanation": "La vapeur d’eau contribue pour 60 % à l’effet de serre planétaire. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte. Le méthane et le CO2 sont bien moins puissants, mais leur durée de vie dans l’atmosphère est de plusieurs décennies."
+    },
+    {
+      "question": "L’Accord de Paris vise un réchauffement climatique limité à 2°C, voire 1,5°C. Aujourd’hui la Terre est sur une trajectoire de réchauffement de :",
+      "answers": ["3°C", "5°C", "7°C"],
+      "correct": 0,
+      "explanation": "Selon une étude de l’ONU fin 2017, le combat des 2°C est presque perdu étant donné l’écart catastrophique entre les promesses des États et leurs actions concrètes. La trajectoire sera à minima sur 3°C, voire 4°C. À ce niveau, les experts prévoient une catastrophe planétaire et économique à court terme."
+    },
+    {
+      "question": "Dans ses prévisions de réchauffement, le GIEC a du mal à estimer les effets d’un phénomène par manque de connaissances scientifiques. Il s’agit :",
+      "answers": [
+        "Des éruptions solaires",
+        "De l’accroissement mondial de population",
+        "De la fonte du permafrost"
+      ],
+      "correct": 2,
+      "explanation": "Le permafrost emprisonne beaucoup de matières organiques capables de libérer du méthane. Avec un dégel complet, le réchauffement pourrait atteindre 4 à 5 °C. Mais impossible encore de savoir quel va être le devenir de ces 12 à 14 millions de kilomètres carrés de terres gelées."
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 3,
+      "explanation": "Test"
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 1,
+      "explanation": "Test"
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "Test"
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 1,
+      "explanation": "Test"
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 3,
+      "explanation": "Test"
+    },
+    {
+      "question": "Test",
+      "answers": ["1", "2", "3", "4"],
+      "correct": 0,
       "explanation": "Test"
     }
   ]
