@@ -6,7 +6,7 @@ The following instructions will help you get started and use the application.
 
 ### Create `.env` configuration file
 
-First, create a `.env` file with the content of the `.env.example` file :
+First, create a `.env` file with the content of the `.env.example` file:
 
 ```bash
 cp .env.example .env
@@ -22,7 +22,7 @@ POSTGRES_DB=<database>
 
 ### Install the application
 
-The following command will :
+The following command will:
 
 - Install **dependencies**
 - Create the **docker**
@@ -38,3 +38,7 @@ make install
 ```bash
 make start
 ```
+
+---
+
+[Sami Lafrance](https://www.samilafrance.com/) & [Elise Echasseriau](https://www.eliseechasseriau.com/)

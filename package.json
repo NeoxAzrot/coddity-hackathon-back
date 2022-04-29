@@ -1,7 +1,7 @@
 {
   "name": "warmd",
   "description": "Hackathon organized by Coddity, about how to make IPCC solutions accessible to everyone?",
-  "author": "Sami Lafrance && Elise Echasseriau",
+  "author": "Sami Lafrance & Elise Echasseriau",
   "version": "1.0.0",
   "license": "MIT",
   "main": "server.ts",
