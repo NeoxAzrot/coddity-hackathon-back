@@ -16,6 +16,7 @@ const whitelist = [
   'http://localhost:3001',
   'https://warmd.fr',
   'https://www.warmd.fr',
+  'https://warmd-api.herokuapp.com',
 ];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
