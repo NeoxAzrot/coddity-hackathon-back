@@ -15,8 +15,6 @@ const POSTGRES_DB = process.env.POSTGRES_DB || '';
 const DB_HOST = process.env.DB_HOST || 'localhost';
 const DB_PORT = process.env.DB_PORT || '5432';
 
-console.log(process.env.DATABASE_URL);
-
 export const pool = new Pool({
   connectionString:
     process.env.DATABASE_URL ||
