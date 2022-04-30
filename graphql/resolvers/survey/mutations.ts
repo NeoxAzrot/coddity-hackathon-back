@@ -7,7 +7,7 @@ const surveyMutations = {
     });
 
     const questions: Question[] = await queryDatabase({
-      query: 'SELECT * FROM questions ORDER BY RANDOM() LIMIT 2',
+      query: 'SELECT * FROM questions ORDER BY RANDOM() LIMIT 20',
     });
 
     questions.forEach(async (question) => {

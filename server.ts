@@ -11,7 +11,7 @@ import apolloServer from 'graphql/connect';
 dotenvExpand.expand(dotenv.config());
 const API_PORT = process.env.API_PORT || 3000;
 
-const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
+const whitelist = ['http://localhost:3000', 'http://localhost:3001', 'https://warmd.fr'];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin as string) !== -1 || !origin) {
