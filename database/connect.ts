@@ -15,12 +15,12 @@ const POSTGRES_DB = process.env.POSTGRES_DB || '';
 const DB_HOST = process.env.DB_HOST || 'localhost';
 const DB_PORT = process.env.DB_PORT || '5432';
 
+console.log(process.env.DATABASE_URL);
+
 export const pool = new Pool({
-  user: POSTGRES_USER,
-  password: POSTGRES_PASSWORD,
-  database: POSTGRES_DB,
-  host: DB_HOST,
-  port: parseInt(DB_PORT),
+  connectionString:
+    process.env.DATABASE_URL ||
+    `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_PORT}/${POSTGRES_DB}`,
 });
 
 export const connectDatabase = async () => {
