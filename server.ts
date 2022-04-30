@@ -13,13 +13,9 @@ const API_PORT = process.env.PORT || 3001;
 const whitelist = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'http://warmd.fr',
   'https://warmd.fr',
-  'http://www.warmd.fr',
   'https://www.warmd.fr',
-  'http://warmd-api.herokuapp.com',
   'https://warmd-api.herokuapp.com',
-  'http://warmd.netlify.app',
   'https://warmd.netlify.app',
 ];
 const corsOptions: CorsOptions = {
