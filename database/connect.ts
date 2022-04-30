@@ -12,15 +12,15 @@ dotenvExpand.expand(dotenv.config());
 const POSTGRES_USER = process.env.POSTGRES_USER || 'root';
 const POSTGRES_PASSWORD = process.env.POSTGRES_PASSWORD || 'root';
 const POSTGRES_DB = process.env.POSTGRES_DB || '';
-const POSTGRES_HOST = process.env.POSTGRES_HOST || 'localhost';
-const POSTGRES_PORT = process.env.POSTGRES_PORT || '5432';
+const DB_HOST = process.env.DB_HOST || 'localhost';
+const DB_PORT = process.env.DB_PORT || '5432';
 
 export const pool = new Pool({
   user: POSTGRES_USER,
   password: POSTGRES_PASSWORD,
   database: POSTGRES_DB,
-  host: POSTGRES_HOST,
-  port: parseInt(POSTGRES_PORT),
+  host: DB_HOST,
+  port: parseInt(DB_PORT),
 });
 
 export const connectDatabase = async () => {
