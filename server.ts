@@ -10,7 +10,12 @@ import apolloServer from './graphql/connect';
 dotenvExpand.expand(dotenv.config());
 const API_PORT = process.env.PORT || 3001;
 
-const whitelist = ['http://localhost:3000', 'http://localhost:3001', 'http://warmd.fr'];
+const whitelist = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://warmd.fr',
+  'https://warmd-api.herokuapp.com',
+];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin as string) !== -1 || !origin) {
