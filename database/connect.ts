@@ -21,7 +21,7 @@ export const pool = new Pool({
   connectionString:
     process.env.DATABASE_URL ||
     `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_PORT}/${POSTGRES_DB}`,
-  ssl: process.env.DATABASE_URL ? true : false,
+  ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : false,
 });
 
 export const connectDatabase = async () => {
