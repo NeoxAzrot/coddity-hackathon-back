@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-import { pool, queryDatabase } from 'database/connect';
+import { pool, queryDatabase } from '../connect';
 
 interface Seeds {
   data: {

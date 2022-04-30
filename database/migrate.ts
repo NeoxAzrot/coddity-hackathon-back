@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from 'fs';
 
-import { pool } from 'database/connect';
+import { pool } from './connect';
 
 const migrateDatabase = async () => {
   const migrations = readdirSync('database/migrations');

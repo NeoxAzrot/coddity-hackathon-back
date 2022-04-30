@@ -4,21 +4,13 @@ import dotenv from 'dotenv';
 import dotenvExpand from 'dotenv-expand';
 import express from 'express';
 
-import { connectDatabase } from 'database/connect';
-
-import apolloServer from 'graphql/connect';
+import { connectDatabase } from './database/connect';
+import apolloServer from './graphql/connect';
 
 dotenvExpand.expand(dotenv.config());
 const API_PORT = process.env.API_PORT || 3000;
 
-const whitelist = [
-  'http://localhost:3000',
-  'http://localhost:3001',
-  'http://warmd.fr',
-  'http://www.warmd.fr',
-  'http://warmd-api.herokuapp.com',
-  'http://warmd.netlify.app',
-];
+const whitelist = ['http://localhost:3000', 'http://localhost:3001', 'http://warmd.fr'];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin as string) !== -1 || !origin) {

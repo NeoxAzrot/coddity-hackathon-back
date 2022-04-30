@@ -1,6 +1,5 @@
-import { queryDatabase } from 'database/connect';
-
-import getQuestionsSurvey from 'utils/getQuestionsSurvey';
+import { queryDatabase } from '../../../database/connect';
+import getQuestionsSurvey from '../../../utils/getQuestionsSurvey';
 
 interface SurveyQueryParams {
   slug: string;

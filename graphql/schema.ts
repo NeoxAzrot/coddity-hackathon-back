@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
-import resolvers from 'graphql/resolvers';
+import resolvers from './resolvers';
 
 const gqlFiles = readdirSync(join(__dirname, './typedefs'));
 

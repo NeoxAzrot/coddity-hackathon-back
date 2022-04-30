@@ -1,4 +1,4 @@
-import { queryDatabase } from 'database/connect';
+import { queryDatabase } from '../../../database/connect';
 
 interface CreateUserMutationParams {
   params: {

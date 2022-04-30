@@ -5,7 +5,7 @@ import {
 import { ApolloServer } from 'apollo-server-express';
 import http from 'http';
 
-import { resolvers, typeDefs } from 'graphql/schema';
+import { resolvers, typeDefs } from './schema';
 
 interface ApolloServerParams {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

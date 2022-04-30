@@ -1,4 +1,4 @@
-import { queryDatabase } from 'database/connect';
+import { queryDatabase } from '../database/connect';
 
 const getQuestions = async (questionsSurveys: QuestionSurvey[]) => {
   const questionsResults = questionsSurveys.map(async (questionSurvey) => {
