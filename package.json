@@ -17,7 +17,8 @@
     "migration": "ts-node -r tsconfig-paths/register database/migrate.ts",
     "migration:production": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/database/migrate.js",
     "seeds": "ts-node -r tsconfig-paths/register database/seeds",
-    "docker": "docker-compose up -d"
+    "docker": "docker-compose up -d",
+    "rimraf": "./node_modules/rimraf/bin.js"
   },
   "dependencies": {
     "apollo-server-core": "^3.6.7",
