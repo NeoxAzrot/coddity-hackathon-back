@@ -17,6 +17,7 @@ const whitelist = [
   'https://warmd.fr',
   'https://www.warmd.fr',
   'https://warmd-api.herokuapp.com',
+  'https://warmd.netlify.app',
 ];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
