@@ -1,48 +1,43 @@
 {
   "data": [
     {
-      "question": "Sans action de notre part, à combien le réchauffement planétaire devrait se situer entre 2030 et 2050 ?",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 0,
-      "explanation": "Test"
+      "question": "Sans action de notre part, à combien au maximum le réchauffement planétaire devrait se situer entre 2030 et 2050 ?",
+      "answers": ["+0.5°C", "+1°C", "+2°C", "+3°C"],
+      "correct": 2,
+      "explanation": "Si les émissions mondiales se maintiennent à leur niveau actuel, le réchauffement devrait avoir dépassé les <b class=\"tertiary\">2°C en 2050</b>."
     },
     {
-      "question": "Lister les actions à court terme pour améliorer la sécurité alimentaire.",
-      "answers": ["1", "2", "3", "4"],
+      "question": "Pour respecter l’Accord de Paris, d'ici 2030, les émissions mondiales doivent être réduites de :",
+      "answers": ["20%", "45%", "60%", "85%"],
       "correct": 1,
-      "explanation": "Test"
+      "explanation": "Depuis 2018, le GIEC prévient : pour respecter l’Accord de Paris, les émissions mondiales doivent  être réduites de <b class=\"primary\">45%</b> d’ici à 2030, en éliminant progressivement les énergies fossiles. L’Europe, pour faire sa part, s’engage à réduire ses émissions de <b class=\"quaternary\">55%</b> à cette échéance. Pourtant, les émissions continuent d’augmenter et les politiques actuelles entraîneraient un réchauffement de <b class=\"tertiary\">2,7°C</b> ou plus d'ici la fin du siècle !"
     },
     {
       "question": "En l’absence de mesures d’adaptation plus ambitieuses qu’aujourd’hui, les dommages annuels causés par les submersions côtières seront multipliés par 10 d’ici 2100 ?",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 2,
-      "explanation": "Test"
+      "answers": ["Vrai", "Faux"],
+      "correct": 0,
+      "explanation": "<b class=\"tertiary\">Vrai</b>, les écosystèmes littoraux sont soumis à des pressions croissantes du fait des changements climatiques."
     },
     {
-      "question": "Quels dirigeants ont soutenu la création du Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC) ?",
+      "question": "Si on ne limite pas le réchauffement climatique à +1.5°C, ... des espèces terrestres seront menacées.",
+      "answers": ["6%", "11%", "14%"],
+      "correct": 2,
+      "explanation": "<b class=\"quaternary\">14%</b> des espèces terrestres seront menacées à +1,5°C, mais ce chiffre s’élève à <b class=\"primary\">29%</b> si on atteint les +3°C"
+    },
+    {
+      "question": "Une de ces affirmations est vraie :",
       "answers": [
-        "Jacques Chirac et Bill Clinton",
-        "Ronald Reagan et Margaret Tatcher",
-        "Mikhaïl Gorbatchev et Henry Kissinger"
+        "Si on maintient la trajectoire actuelle, la production de maïs devrait disparaître d’ici la fin du siècle.",
+        "L'inaction est plus coûteuse que les investissements nécessaires pour lutter contre la crise climatique."
       ],
       "correct": 1,
-      "explanation": "En 1988, le Président républicain des États-Unis et la Première ministre travailliste britannique demandent la création, par le biais du G7, d’une mission d’évaluation de la connaissance sur l’évolution du climat et sur le rôle de l’activité humaine. Le but était indirectement de promouvoir l’énergie nucléaire."
+      "explanation": "Si on maintient la trajectoire actuelle, la production de maïs devrait chuter de <b class=\"primary\">1/5 à 1/3 d’ici la fin du siècle</b>. Mais, l'inaction est plus coûteuse que les investissements nécessaires pour lutter contre la crise climatique. Et oui, c'est un comble !"
     },
     {
-      "question": "Quand a été évoqué pour la première fois le réchauffement d’origine humaine dans la presse grand public ?",
-      "answers": [
-        "1912 dans le Rodney and Otamatea Times, au sujet de la combustion du charbon",
-        "1922 dans l’Écho de Paris, au sujet de l’activité industrielle pendant la première guerre",
-        "1932 dans le Houston Chronicle, au sujet de l’industrie pétrolière au Texas"
-      ],
+      "question": "Le secteur de l’agriculture, de l’alimentation et de la forêt représente un quart des émissions mondiales de gaz à effet de serre.",
+      "answers": ["Vrai", "Faux"],
       "correct": 0,
-      "explanation": "C’est à peine une petite brève dans les colonnes d'un quotidien néozélandais daté du 14 août 1912, Rodney and Otamatea Times, Waitemata and Kaipara Gazette. Celle-ci évoquait déjà sans aucune ambiguïté l’impact de la combustion du charbon dans le réchauffement climatique. Elle est intitulée \"La consommation de charbon affecte le changement climatique\"."
-    },
-    {
-      "question": "Les géologues débattent sur l’apparition d’une nouvelle ère géologique marquée par l’influence de l’Homme sur la planète, en particulier à travers l’utilisation des énergies fossiles. Elle se nomme :",
-      "answers": ["Carbonocène", "Industriacène", "Anthropocène"],
-      "correct": 2,
-      "explanation": "La notion d’Anthropocène est apparue à la fin du XXe siècle. Elle serait marquée par la modification de l’atmosphère et des sols. Toutefois, la notion ne fait pas encore consensus. En 2016, lors d’un sommet à Oslo, une quarantaine d’experts, ont appelé à officialiser ce concept."
+      "explanation": "<b class=\"primary\">Vrai</b>, le secteur de l’agriculture, de l’alimentation et de la forêt représente un quart des émissions mondiales de gaz à effet de serre. Selon le GIEC, il est nécessaire de s’attaquer aux émissions de méthane pour ne pas dépasser les +1,5°C. Or l’élevage représente <b class=\"quaternary\">32%</b> des émissions globales de méthane..."
     },
     {
       "question": "À quelle date le GIEC a-t-il assuré que le réchauffement climatique était d’origine humaine ?",
@@ -52,93 +47,85 @@
         "2014, en vue de la tenue de la COP21 en 2015 à Paris."
       ],
       "correct": 1,
-      "explanation": "C’est en 2007, que les experts du GIEC assurent qu’il y a 90 % de chance que l’Homme soit responsable du changement climatique. Dans le rapport précédent, ce taux n’était situé qu’à 66 %, laissant de la place au climato-scepticisme."
+      "explanation": "C’est en 2007, que les experts du GIEC assurent qu’il y a <b class=\"tertiary\">90%</b> de chance que l’Homme soit responsable du changement climatique. Dans le rapport précédent, ce taux n’était situé qu’à 66%, laissant de la place au climato-scepticisme."
     },
     {
       "question": "Comment s’appelle l’effet qui est à l’origine du réchauffement par l’accroissement de certains gaz dans l’atmosphère, comme le dioxyde de carbone ou le méthane ?",
       "answers": ["L’effet de serre", "L’effet de radiation", "L’effet de couverture"],
       "correct": 0,
-      "explanation": "Par analogie avec les serres en agriculture, l’effet de serre planétaire est le phénomène naturel qui permet à la planète d’avoir une température tempérée moyenne de 15 °C contre -18 °C s’il n’existait pas. Il est dû au fait que certains gaz atmosphériques emprisonnent le rayonnement infrarouge du soleil sans le laisser repartir dans l’espace. Mais la production de certains gaz par l’Homme est en train d’accentuer cet effet, au point de le rendre dangereux."
+      "explanation": "Par analogie avec les serres en agriculture, l’effet de serre planétaire est le phénomène naturel qui permet à la planète d’avoir une température tempérée moyenne de 15°C contre -18°C s’il n’existait pas. Il est dû au fait que certains gaz atmosphériques emprisonnent le rayonnement infrarouge du soleil sans le laisser repartir dans l’espace. Mais la production de certains gaz par l’Homme est en train d’accentuer cet effet, au point de le rendre dangereux."
     },
     {
-      "question": "Quel est le taux de CO2 dans l’atmosphère ?",
-      "answers": ["Entre 30 et 40 %", "Environ 12 %", "Moins de 0,1 %"],
-      "correct": 2,
-      "explanation": "On ne parle que de lui à travers son fort pouvoir d’effet de serre, mais le CO2 ne compte que pour une part infime de l’atmosphère terrestre. Celle-ci se compose à 78,09 % d’azote, 20,95 % d’oxygène, 0,93 % d’argon, 0,04 % de CO2. Suivent des traces d’autres gaz : néon, hélium, ozone, etc."
-    },
-    {
-      "question": "Lors de quel \"Sommet de la Terre\", le plus ancien sommet environnemental, a été évoqué pour la première fois la question du réchauffement climatique ?",
-      "answers": [
-        "1972 au sommet de la Terre de Stockholm",
-        "1992 lors du sommet de la Terre à Rio de Janeiro",
-        "2002 lors du sommet de la Terre à Johannesburg"
-      ],
+      "question": "Selon le GIEC, changer son régime alimenaire pour réduire les émissions de gaz à effet de serre est l'unique solution à la crise climatique.",
+      "answers": ["Vrai", "Faux"],
       "correct": 1,
-      "explanation": "Le sommet de 1992 à Rio est le plus important des quatre éditions de cette conférence onusienne, qui a lieu tous les dix ans. Elle donne naissance à trois conventions de l’ONU sur la désertification, sur la biodiversité et sur le changement climatique. Cette dernière est la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC), chargée de l’organisation des COP."
+      "explanation": "Un des plus grands potentiels de réduction d’émissions avancé par le GIEC c’est le <b class=\"tertiary\">changement de régime alimentaire</b> avec une part plus importante de protéines végétales, une consommation modérée d'aliments d'origine animale et une consommation réduite de graisses saturées. Mais ce n'est pas <b class=\"primary\">l'unique</b> solution avancée par le GIEC."
     },
     {
       "question": "Quel gaz à l'effet de serre le plus puissant ?",
       "answers": ["Le CO2", "La vapeur d’eau", "Le méthane"],
       "correct": 1,
-      "explanation": "Test"
-    },
-    {
-      "question": "tes",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 1,
-      "explanation": "La vapeur d’eau contribue pour 60 % à l’effet de serre planétaire. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte. Le méthane et le CO2 sont bien moins puissants, mais leur durée de vie dans l’atmosphère est de plusieurs décennies."
+      "explanation": "La vapeur d’eau contribue pour 60 % à l’effet de serre planétaire. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte. <b class=\"quaternary\">Le méthane et le CO2 sont bien moins puissants</b>, mais leur durée de vie dans l’atmosphère est de plusieurs décennies."
     },
     {
       "question": "L’Accord de Paris vise un réchauffement climatique limité à 2°C, voire 1,5°C. Aujourd’hui la Terre est sur une trajectoire de réchauffement de :",
       "answers": ["3°C", "5°C", "7°C"],
       "correct": 0,
-      "explanation": "Selon une étude de l’ONU fin 2017, le combat des 2°C est presque perdu étant donné l’écart catastrophique entre les promesses des États et leurs actions concrètes. La trajectoire sera à minima sur 3°C, voire 4°C. À ce niveau, les experts prévoient une catastrophe planétaire et économique à court terme."
+      "explanation": "Selon une étude de l’ONU fin 2017, le combat des 2°C est presque perdu étant donné l’écart catastrophique entre les promesses des États et leurs actions concrètes. La trajectoire sera à minima sur <b class=\"tertiary\">3°C</b>, voire <b class=\"quaternary\">4°C</b>. À ce niveau, les experts prévoient une catastrophe planétaire et économique à court terme."
     },
     {
-      "question": "Dans ses prévisions de réchauffement, le GIEC a du mal à estimer les effets d’un phénomène par manque de connaissances scientifiques. Il s’agit :",
-      "answers": [
-        "Des éruptions solaires",
-        "De l’accroissement mondial de population",
-        "De la fonte du permafrost"
-      ],
-      "correct": 2,
-      "explanation": "Le permafrost emprisonne beaucoup de matières organiques capables de libérer du méthane. Avec un dégel complet, le réchauffement pourrait atteindre 4 à 5 °C. Mais impossible encore de savoir quel va être le devenir de ces 12 à 14 millions de kilomètres carrés de terres gelées."
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 3,
-      "explanation": "Test"
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 1,
-      "explanation": "Test"
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 2,
-      "explanation": "Test"
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 1,
-      "explanation": "Test"
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 3,
-      "explanation": "Test"
-    },
-    {
-      "question": "Test",
-      "answers": ["1", "2", "3", "4"],
+      "question": "Le transport est-il le secteur qui a le plus gros potentiel d'atténuation de l'émission de gaz à effet de serre ?",
+      "answers": ["Vrai", "Faux"],
       "correct": 0,
-      "explanation": "Test"
+      "explanation": "Actuellement le secteur des transports est le deuxième secteur le plus émetteur au niveau mondial. Il représente <b class=\"primary\">31%</b> des émissions de GES de la France. C’est également l’un des secteurs dont les émissions pourraient être rapidement et fortement réduites si nous mettions en place les mesures d'atténuation nécessaires."
+    },
+    {
+      "question": "Combien de pourcentage de la consommation de carburant des villes liée au transport pourraient être évitée grâce à des infrastructures de transport moins dépendantes de la voiture individuelle ?",
+      "answers": ["5%", "15%", "25%", "35%"],
+      "correct": 2,
+      "explanation": "<b class=\"quaternary\">25%</b> de la consommation de carburant des villes liée au transport pourraient être évitée grâce à des infrastructures de transport moins dépendantes de la voiture individuelle."
+    },
+    {
+      "question": "Combien de risques majeurs ont été recensés dans toutes les régions et tous les secteurs ?",
+      "answers": ["23", "54", "89", "127"],
+      "correct": 3,
+      "explanation": "<b class=\"primary\">127 risques majeurs</b> ont été recensés dans toutes les régions et tous les secteurs : avec l’augmentation du réchauffement, ils deviendront graves, c’est-à-dire généralisés, systémiques et potentiellement irréversibles."
+    },
+    {
+      "question": "Les rendements des principales cultures telles que le maïs, le soja, le riz et le blé sont déjà impactés par le réchauffement. De combien ces impacts vont empirer d'ici 2100 si les émissions de gaz à effet de serre (GES) maintiennent leur trajectoire ?",
+      "answers": ["1/8 à 1/6", "1/6 à 1/5", "1/5 à 1/3"],
+      "correct": 2,
+      "explanation": "Ces impacts vont empirer si les émissions de gaz à effet de serre (GES) maintiennent leur trajectoire : si c’est le cas, le GIEC estime que la production de maïs devrait chuter de <b class=\"tertiary\">1/5 à 1/3</b> d’ici la fin du siècle."
+    },
+    {
+      "question": "Si le changement climatique se poursuit au même rythme, le GIEC prédit qu'au maximum un quart des espèces pourrait disparaître d’ici 2070.",
+      "answers": ["Vrai", "Faux"],
+      "correct": 1,
+      "explanation": "Si le changement climatique se poursuit au même rythme, le GIEC prédit <b class=\"primary\">qu’un tiers des espèces</b> pourrait disparaître d’ici 2070."
+    },
+    {
+      "question": "D'après le GIEC, des effets sur la santé mentale sont-ils à prévoir dans les années à venir ?",
+      "answers": ["Vrai", "Faux"],
+      "correct": 0,
+      "explanation": "Le GIEC souligne également les conséquences du changement climatique sur la santé mentale, avec notamment une forte anxiété liée à la hausse des températures et la perte des moyens de subsistance, mais aussi des traumatismes causés par les catastrophes naturelles. La précarité générée par ces épisodes augmente par ailleurs le risque de violences."
+    },
+    {
+      "question": "Quel est le pays européen le plus menacé par les inondations côtières ?",
+      "answers": ["France", "Espagne", "Italie", "Portugal"],
+      "correct": 0,
+      "explanation": "La France est l’un des pays européens les plus menacés par les inondations côtières. Le nombre de personnes vivant dans des zones menacées est de <b class=\"tertiary\">900 000 personnes</b> actuellement, et pourrait passer à <b class=\"primary\">1.7 million</b> d’ici la fin du siècle si les émissions sont élevées."
+    },
+    {
+      "question": "En 2050, le nombre de personnes qui mourront de la chaleur par an en France sera triplé, si les émissions de GES suivent leur trajectoire actuelle.",
+      "answers": ["Vrai", "Faux"],
+      "correct": 0,
+      "explanation": "En 2050, le nombre de personnes qui mourront de la chaleur atteindra <b class=\"primary\">5000</b> par an en France (contre 1500 actuellement) si les émissions de GES suivent leur trajectoire actuelle. Les vagues de chaleur auront également des conséquences irréversibles sur les écosystèmes."
+    },
+    {
+      "question": "L’effet de serre est-il bénéfique aux humains ?",
+      "answers": ["Vrai", "Faux"],
+      "correct": 1,
+      "explanation": "Sans cet effet de serre, la température moyenne de l’air passerait de <b class=\"tertiary\">+15°C à -18°C</b> ! L’effet de serre est donc une très bonne chose, indispensable à la vie humaine. Les problèmes que remonte le GIEC, c'est qu'il y en a une quantité trop importante."
     }
   ]
 }
