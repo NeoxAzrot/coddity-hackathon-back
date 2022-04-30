@@ -126,6 +126,24 @@
       "answers": ["Vrai", "Faux"],
       "correct": 1,
       "explanation": "Sans cet effet de serre, la température moyenne de l’air passerait de <b class=\"tertiary\">+15°C à -18°C</b> ! L’effet de serre est donc une très bonne chose, indispensable à la vie humaine. Les problèmes que remonte le GIEC, c'est qu'il y en a une quantité trop importante."
+    },
+    {
+      "question": "Combien de temps nous reste t'il pour inverser la tendance du changement climatique ?",
+      "answers": ["1 an", "2 ans", "3 ans", "4 ans"],
+      "correct": 2,
+      "explanation": "<b class=\"quaternary\">3 ans</b> pour changer nos modèles et commencer à faire baisser les émissions mondiales de gaz à effet de serre. C’est le délai fixé par les scientifiques dans le rapport du GIEC. <b class=\"primary\">Chaque jour, chaque action compte.</b>"
+    },
+    {
+      "question": "Combien de fois le gouvernement français a été condamné l’année dernière par la justice française pour inaction climatique ?",
+      "answers": ["1 fois", "2 fois", "3 fois", "4 fois"],
+      "correct": 1,
+      "explanation": "Le gouvernement français a été condamné l’année dernière <b class=\"tertiary\">deux fois</b> par la justice française pour inaction climatique. Il doit agir au plus vite. D’autant que c’est un enjeu capital pour <b class=\"primary\">94%</b> des Français et Françaises."
+    },
+    {
+      "question": "Avec un réchauffement de +2°C, plus d’un tiers de la population de cette zone pourrait manquer d’eau.",
+      "answers": ["Vrai", "Faux"],
+      "correct": 0,
+      "explanation": "Avec un réchauffement de +2°C, <b class=\"primary\">plus d’un tiers de la population</b> de cette zone pourrait manquer d’eau. En Outre-mer, les impacts sont encore plus marqués et les risques plus élevés."
     }
   ]
 }
