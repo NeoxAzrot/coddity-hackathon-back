@@ -17,8 +17,7 @@
     "migration": "ts-node -r tsconfig-paths/register database/migrate.ts",
     "migration:production": "node -r ts-node/register/transpile-only -r tsconfig-paths/register build/database/migrate.js",
     "seeds": "ts-node -r tsconfig-paths/register database/seeds",
-    "docker": "docker-compose up -d",
-    "postinstall": "npm run build"
+    "docker": "docker-compose up -d"
   },
   "dependencies": {
     "apollo-server-core": "^3.6.7",
