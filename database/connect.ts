@@ -16,9 +16,8 @@ const DB_HOST = process.env.DB_HOST || 'localhost';
 const DB_PORT = process.env.DB_PORT || '5432';
 
 export const pool = new Pool({
-  connectionString:
-    `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_PORT}/${POSTGRES_DB}`,
-  ssl: true,
+  connectionString: `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_PORT}/${POSTGRES_DB}`,
+  ssl: process.env.NODE_ENV === 'production' ? true : false,
 });
 
 export const connectDatabase = async () => {
